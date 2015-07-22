@@ -1,0 +1,113 @@
+Buffer = A buffer is the text content of a file in Atom. It’s basically the same as a file for most descriptions, but it’s the version Atom has in memory. For instance, you can change the text of a buffer and it isn’t written to its associated file until you save it.
+
+Pane = A pane is a visual section of Atom. If you look at the welcome screen we just launched, you can see four Panes - the tab bar, the gutter (which has line numbers in it), the status bar at the bottom and finally the text editor.
+
+Command Palette :
+  Access it with Cmd-shift-P
+  Search Driven Menu can do just about any major task possible in atom
+
+Opening a File:
+  ctrl-O : Single File
+  ctrl-shift-O : Open Directory
+
+Tree View : allows you to explore and modify the file and directory structure of your project
+  Toggle with Ctrl-\
+  Focus with Ctrl-0
+    While focused press a for add, m to move or d to delete
+
+Opening a File in a Project:
+  ctrl-T or ctrl-P will load up the Fuzzy Finder and you can search for a file
+  ctrl-B searches through open files
+  ctrl-shift-V searches through files which are new or modified
+
+Moving in Atom
+  alt-F : Move to end of Wordc
+  alt-B : Move to beginning of word
+  ctrl-Home : Move to top of file
+  ctrl-End : Move to bottom of file
+  ctrl-G : Move to line number
+  ctrl-r: List all of symbols in current file
+  ctrl-shift-r : search for symbols across your project
+
+Atom Selections:
+  ctrl-shift-P
+    Select up
+  ctrl-shift-N
+    Select down
+  ctrl-shift-B
+    Select previous character
+  ctrl-shift-F
+    Select next character
+  alt-shift-B, alt-shift-left
+    Select to beginning of word
+  alt-shift-F, alt-shift-right
+    Select to end of word
+  ctrl-shift-E, cmd-shift-right
+    Select to end of line
+  ctrl-shift-A, cmd-shift-left
+    Select to first character of line
+  ctrl-shift-up
+    Select to top of file
+  ctrl-shift-down
+    Select to bottom of file
+  ctrl-A
+    Select the entire buffer
+  cmd-L
+    Select entire line
+  ctrl-shift-W
+    Select current word
+
+Brackets:
+  ctrl-m
+    Jump to the bracket matching the one adjacent to the cursor
+  ctrl-alt-m
+    Select all the text inside the current brackets
+  ctrl-alt-.
+    Close the Current xml/html tag
+
+Snippets:
+  Code Snippets
+  Ex: type html and tab through selections
+  alt-shift-S
+    See all available snippets for the file type you have open
+  Custom Snippets
+    snippets.cson
+
+Autocomplete:
+  ctrl-space
+    Bring up autocomplete menu
+
+Folding:
+  Hides blocks of code such as functions or looping blocks in order simplfy whats on screen
+  alt-ctrl-[
+    Fold
+  alt-ctrl-]
+    Unfold
+  alt-ctrl-shift-{
+    Fold Everything
+  alt-ctrl-shift-}
+    Unfold Everything
+
+Grammer Selector
+  ctrl-shift-L
+    Pulls up Grammer Selector
+
+Version Control in Atom
+  Checkout Head revision
+    ctrl-alt-z
+      checks out the HEAD revision of the file in editor, quicky way to discard any saved and staged changes
+  Commit Editor
+    Can configure atom to be your git commit editor by
+    $ git config --global core.editor "atom --wait"
+
+  Open on GitHub
+    alt-G O
+    open file on GitHub
+    alt-G B
+    open blame on file on GitHub
+    alt-G H
+    open history of file on GitHub
+    alt-G C
+    Copy the URL of the current file on GitHub
+    alt-G R
+    Branch compare on GitHub

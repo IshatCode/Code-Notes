@@ -1,0 +1,11 @@
+Why use Repository Design Pattern?
+  Separate business code from data access
+
+Intent
+  Encapsulate data Access
+    Data Appears to live inside an in-memory collection
+
+    Add and Remove some sort of Object, maybe a Find method
+
+Generic Repository
+  Use interface <T> where T is your type of entity
