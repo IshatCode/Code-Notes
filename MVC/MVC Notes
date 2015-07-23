@@ -1,0 +1,19 @@
+Class Library
+  Creates a dll to use in other projects
+
+Virtual Property
+  Entity Framework can do very efficient change tracking when virtual
+
+Models
+  Contain Data to Display, some logic
+
+Views
+  Taking Model from controller and producing html in browser
+
+Controllers
+  Often Build Models and Select view to display
+
+Routing
+  Routes by HTTP method(GET<POST<PUT,DELETE)
+  Other methods available via [AcceptVerbs]
+  Looks at the start of an action name

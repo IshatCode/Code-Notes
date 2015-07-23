@@ -1,0 +1,3 @@
+node command is key
+  $ node program.js
+    Executes program.js

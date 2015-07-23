@@ -1,0 +1,11 @@
+NUL > "filename"
+  make a new file
+
+Console.log()
+  Anything in () writes to terminal
+
+Variables
+  Declared using var followed by name of variable
+
+Strings
+  Any Value surrounded by quotes, can be single or double 

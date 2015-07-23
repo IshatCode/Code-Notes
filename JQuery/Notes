@@ -1,0 +1,48 @@
+Document Object Model
+  how an Html document is structured, consists of every element on the page
+
+Add Javascript to html file
+  In head section
+    <script type ="text/javascript" src = "javascript file name"></script>
+
+$()
+    Hey Jquery things are about to happen!
+
+$(document)
+    with document between the () we are about to work some magic on the html document itself
+
+.ready()
+    Does stuff as soon as HTML document is ready
+
+Functions
+  $(document).ready(function() {
+    Do something
+});
+
+Variables
+  Assign values with =
+  Store jQuery selector
+    $p = $('p');
+  To select a class don't forget the .
+     $target = $('.lame');
+  To select a ID don`t forget the #
+
+this keyword
+  refers to the jQuery object you are currently doing something with
+  $('div').click(function() {
+       $(this).fadeOut('slow');
+   });
+
+Adding Classes to an element
+  Do not put in . in classname
+  $('selector').addClass('className');
+  $('selector').removeClass('className');
+
+.toggleClass()
+    toggles a class back and forth
+
+.css()
+  Takes in two inputs
+    1. CSS Element to alter
+    2. value to set it to to
+     $("div").css("background-color","#008800");
