@@ -46,3 +46,16 @@ Adding Classes to an element
     1. CSS Element to alter
     2. value to set it to to
      $("div").css("background-color","#008800");
+
+.html()
+  Set contents of first element match it finds
+  $('div').html();
+
+.val()
+  get the value of form elements
+  $('input:checkbox:checked').val();
+
+Input from form
+$('#button').click(function(){
+       $toAdd = $('input[name=checkListItem']).val()
+   });
