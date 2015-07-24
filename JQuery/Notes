@@ -59,3 +59,30 @@ Input from form
 $('#button').click(function(){
        $toAdd = $('input[name=checkListItem']).val()
    });
+
+Events
+$(document).ready(function() {
+    $('thingToTouch').event(function() {
+        $('thingToAffect').effect();
+    });
+});
+
+.dblclick()
+  effect when user double clicks
+
+.hover()
+  Does stuff when you hover over element
+
+.focus()
+  Element has focus when we click
+
+.animate()
+  Two Inputs
+    Animation to perform and time in which to perform the animation
+  $(document).ready(function() {
+   $('div').animate({left:'+=10px'},500);
+});
+  **Remeber moving something to the left is actually to the right and vice versa
+
+.effect
+  uses Jquery UI library
