@@ -46,6 +46,7 @@ Adding method to object
 Prototype
   Teaches all instances of the class the method
   class.prototype.newMethod = function(){};
+  Adding functionality to a prototype adds into to any object that inherits that prototype
 
 Inheritance
   To inherit from one class to another you must set the prototype
@@ -53,3 +54,24 @@ Inheritance
 
 Private variables
   Use var inside a object, have a method return a private variable to have access to it
+
+JSON
+  JSON.stringify(object)
+    converts object into json encoded string
+
+  JSON.parse(jsonString)
+    parses string back into object
+
+Constructor
+  Start with Capital Letters
+    function() E() {};
+
+    e = new E(); -Must have new just like in C#
+
+Closures
+  Allow you to access scoped variables after functions complete
+    using var i etc will close off the variable and not pop it off stack when function completes
+
+That
+  use when using this inside functions to avoid bugs
+  this = that

@@ -1,0 +1,59 @@
+DOCTYPE
+  Signal to borwser and allows them to interpret the content of the document in the context of the rules associated with the document type
+
+Tags
+  Layout content
+
+  Div and Span
+    Have no visual meaning, just act as containers
+    Spans are inline elements where divs are block elements
+
+  Section
+    represents a generic document or section in a n application. A section should
+    be self-contained and capable of existing independently of other sections in
+    document
+
+  header
+    represents the introduction section of an html document or section of a
+    document
+
+  footer
+    represents data that should be at bottom of page
+
+  aside
+    this is used for content that is loosely associated with the other content around it
+    but which could be considered separate
+
+  article
+    this should be used to separate content that can distributed independently from other content in the document
+
+  details
+    contains additional details that a user can choose to show or hide by clicking summary tag
+
+  summary
+    contains summary of the contents that appear in the details tag
+
+  main
+    should be used to surround the main section of a document, stripped of all headers
+    footers,asides and menus, should only be used once per page, surronds central functionality of page
+
+  nav
+    contains a set of navigation links
+
+  dialog
+    used for dialog boxes and windows
+
+  wbr
+    this is used as a hint to the browser that it could add a line break
+
+  mark
+    this can be used to indicate that a piece of text is highlighted
+
+  figure
+    this element can be used to surroind self-contained content such as photos and illustrations
+
+  figcaption
+    this is used for providing a legend of a figure
+
+  address
+    defines a section describing content info
