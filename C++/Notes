@@ -1,0 +1,9 @@
+Pointers: variable that can refer directly to the memory that stores variables,
+point to locations in memory, this allows your program to access more memory from the OS
+
+Variables vs Addresses
+  Variable:representation of a value
+  Address:Where the variable is stored in memory
+
+If you pass a pointer variable into a function, your passing the value stored
+in the pointer-the memory address
